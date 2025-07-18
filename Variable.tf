@@ -1,9 +1,6 @@
 variable "resource_group_name"{
     default = "sharadrg1"
 }
-variable "resource_group_name"{
-    default = "sharadrg2"
-}
 
 variable "location" {
     default = "East US"
