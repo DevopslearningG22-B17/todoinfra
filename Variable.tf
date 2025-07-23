@@ -20,5 +20,6 @@ type = string
 
  variable "account_replication_type" {
     default = "GRS"
+type = string
  }  
 
