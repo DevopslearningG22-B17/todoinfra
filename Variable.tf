@@ -1,25 +1,27 @@
-variable "resource_group_name"{
-    default = "sharadrg1"
-type = string
+
+variable "resource_group_name" {
+  default = "sharadrg2"
 }
+
 
 variable "location" {
-    default = "East US"
-type = string
+  default = "East US"
 }
 
-variable "storage" {
-    default = "sharadstorage1"
-type = string
+variable "storage_name" {
+  default = "sharadstorage2"
 }
-  
+
+
 variable "account_tier" {
-    default = "Standard"
-type = string
+
+  default = "Standard"
 }
 
- variable "account_replication_type" {
-    default = "GRS"
-type = string
- }  
+variable "account_replication_type" {
+  default = "GRS"
+}
+
+  
+
 
